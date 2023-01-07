@@ -19,4 +19,5 @@ def get_tweets(handle, count=200):
     for tweet in tweets:
         tweet_list.append(tweet)
         
+    return tweet_list
     
